@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditSpinner"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <com.reginald.editspinner.EditSpinner
+        android:id="@+id/edit_spinner_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="enter security question"
+        android:textColorHint="#aa828282"
+        android:textSize="18dp"
+        android:padding="8dp"
+        app:dropDownDrawable="@drawable/ic_tick_round"
+        app:dropDownDrawableSpacing="15dp"
+        app:dropDownDrawableWidth="15dp"
+        app:dropDownDrawableHeight="15dp"
+        app:dropDownAnimStyle="@style/CustomPopupAnimation"
+        />
+
+    <com.reginald.editspinner.EditSpinner
+        android:id="@+id/edit_spinner_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btn_back"
+        android:textColorHint="#aa828282"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="20dp"
+        />
+
+
+</LinearLayout>
